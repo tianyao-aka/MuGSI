@@ -1,6 +1,6 @@
 # MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification
 
-This repository contains a subset of codes for our submission: _MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification_ to WWW2024. The codes contain the main results in Table 2 for TUDatasets, using GIN as the teacher model, and MLP or GA-MLP as the student model. We will make **all codes publicly available once accepted**.
+This repository contains codes for our work: _MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification_ in WWW 2024. 
 
 ## Set up environment
 

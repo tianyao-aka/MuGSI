@@ -8,10 +8,16 @@ To set up the virtual environment for our project, use _requirements.txt_ to ins
 
 ## Load and pre-process datasets
 
-To load and preprocess datasets, use the following command:
+To load and preprocess TUdatasets, use the following command:
 
 ```bash
 python DataPreTransform_TU.py --dataset $dataset_name$
+```
+
+To load and preprocess TUdatasets CIFAR10 and MOLHIV datasets, use the following command:
+
+```bash
+python DataPreTransform.py --dataset $dataset_name$
 ```
 
 ## Download pre-trained GNN models

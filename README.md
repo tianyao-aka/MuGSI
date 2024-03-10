@@ -42,6 +42,14 @@ python run_Model_OGB.py  --device_id 0 --trialId 1 --use_KD --dataset ogbg-molhi
 
 Similarly, one can use different student model, and try with different hyper-parameters for _RandomWalkConsistencyReg_, _ClusterMatchingReg_ and _graphPoolingReg_.
 
+To use 3-WL GNN (KPGIN) as teacher model for TUDatasets, run the following command:
+
+```bash
+python run_Model_TU_KPGNN.py --use_KD --hidden_size 64 --drop_prob 0.5 --K 4 --kernel spd --combine geometric --num_layer 3 --max_epochs 350  --dataset IMDB-BINARY  --dataset_index 0 --studentModelName GA-MLP --teacherModelName KPGIN  --batch_size 32  --numWorkers 4  --useSoftLabel --softLabelReg 1.0 --useRandomWalkConsistency --RandomWalkConsistencyReg 0.0001 --useClusterMatching --ClusterMatchingReg 0.01 --useGraphPooling --graphPoolingReg 0.01 --KD_name useJoint
+```
+
+The backbone architecture can be tuned via: _hidden_size_, _K_, _combine_ and _num_layer_. More details can be found in our paper.
+
 ## Run GLNN
 
 To run GLNN, only use `--useSoftLabel`, here is an example:

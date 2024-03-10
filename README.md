@@ -1,6 +1,6 @@
 # MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification
 
-This repository contains codes for our work: _MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification_ accepted by TheWebConf 2024. 
+This repository contains codes for our work __MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification__ accepted by TheWebConf 2024. 
 
 ## Set up environment
 

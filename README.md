@@ -34,6 +34,14 @@ python run_Model_TU.py --use_KD  --device_id 0 --max_epochs 350 --dataset REDDIT
 
 To use GA-MLP as student model, use `--studentModelName GA-MLP`, remove `--usePE` to disable LaPE. `--dataset_index` indicates the fold used for the dataset, ranging from 0-9.
 
+Tp run MolHiv, use the following command:
+
+```bash
+python run_Model_PCBA.py  --device_id 0 --trialId 1 --use_KD --dataset ogbg-molhiv  --drop_ratio 0.5  --studentModelName GA-MLP --lr_patience 30  --numWorkers 4 --useSoftLabel --softLabelReg 1.0 --useRandomWalkConsistency --RandomWalkConsistencyReg 0.0001 --useClusterMatching --ClusterMatchingReg 0.01 --useGraphPooling --graphPoolingReg 0.01 --KD_name useJoint
+```
+
+Similarly, one can use different student model, and try with different hyper-parameters for _RandomWalkConsistencyReg_, _ClusterMatchingReg_ and _graphPoolingReg_.
+
 ## Run GLNN
 
 To run GLNN, only use `--useSoftLabel`, here is an example:

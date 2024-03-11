@@ -51,8 +51,8 @@ from model.training_utils import NaNStopping
 from model.MLP import MLP,GA_MLP
 from model.base_GNN_models import GIN,GCN
 from model.PL_UniversalModel import PL_UniversalModel
-# from model.PL_UniversalModel_TU import PL_UniversalModel_TU
-from model.PL_UniversalModel_TU_time_memory import PL_UniversalModel_TU
+from model.PL_UniversalModel_TU import PL_UniversalModel_TU
+# from model.PL_UniversalModel_TU_time_memory import PL_UniversalModel_TU
 from model.data_cache import DatasetVars
 import argparse
 import warnings

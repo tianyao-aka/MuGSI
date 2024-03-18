@@ -2,7 +2,7 @@
 
 This repository contains codes for our work __MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification__ accepted by TheWebConf 2024. 
 
-In this work, we propose a distillation framework to bridge the gap betwwen efficiency and expressiveness of graph neural networks. MuGSI achieves the same performance as 3-WL GNN and GIN in most of datasets, and is 10x-100x more memory efficiency, and robust to test-time distributional shift.
+In this work, we propose a distillation framework to bridge the gap between efficiency and expressiveness of graph neural networks. MuGSI achieves the same performance as 3-WL GNN and GIN in most of datasets, and is 10x-100x more memory efficient than 3-WL GNNs, and robust to test-time distributional shift.
 
 ## Set up environment
 

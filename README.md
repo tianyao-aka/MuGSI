@@ -83,5 +83,18 @@ python run_Model_TU.py --use_KD  --device_id 0 --max_epochs 350 --dataset REDDIT
   <br />
 </p>
 
+# Citation
 
+If you find our paper and repo useful, please cite our paper:
 
+```
+@inproceedings{Yao_2024, series={WWW ’24},
+   title={MuGSI: Distilling GNNs with Multi-Granularity Structural Information for Graph Classification},
+   url={http://dx.doi.org/10.1145/3589334.3645542},
+   DOI={10.1145/3589334.3645542},
+   booktitle={Proceedings of the ACM on Web Conference 2024},
+   publisher={ACM},
+   author={Yao, Tianjun and Sun, Jiaqi and Cao, Defu and Zhang, Kun and Chen, Guangyi},
+   year={2024},
+   month=may, collection={WWW ’24} }
+```
